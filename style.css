@@ -1,0 +1,51 @@
+body
+{
+	background-color:Cyan;
+}
+.wrapper
+{
+	margin:150px;
+	border:1px;
+	  box-shadow: 30px 30px 30px 30px #888888;
+
+}
+.header
+{
+	background-color:LightGray;
+	text-align:center;
+		
+
+	
+}
+
+.content
+{
+	background-color:Cornsilk;
+	margin:0;
+		overflow: hidden;
+
+	
+
+}
+.footer
+{
+	background-color:Azure;
+	text-align: center;
+	font-size:30px;
+}
+.movies
+{
+	
+}
+.del
+{
+	float:right;
+	background-color:BlueViolet;
+	border-radius: 6px;
+
+}
+li{
+	margin:5px;
+	font-size: 40px;
+	list-style-type: none;
+}
