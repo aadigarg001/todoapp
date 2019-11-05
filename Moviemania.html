@@ -2,6 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	
 </head>
 <body>
 
@@ -12,26 +13,45 @@
 <h3>Movies for everyone</h3>
 <br>
 <form>
-<input type="textbox" placeholder="Search for movies" >
+<input type="text" class="search" placeholder="Search for movies" >
 </form>
 </div>
-<div class="content">
-<h2 align="center">Movies to Watch</h2>
+<div id="list" class="content">
+
 <br>
-<ul>
-<li><span class="movies">Fight Club</span><span class="del"> delete</span></li>
-<li><span class="movies">Shawshank Redemption</span> <span class="del">delete</span></li>
-<li><span class="movies">Dilwale </span><span class="del">delete</span></li>
-<li><span class="movies">Dark Knight Rises</span><span class="del">delete</span></li>
-<li><span class="movies">Dark Knight1</span><span class="del"> delete</span></li>
-</ul>
+<div id="li">
+            <h2 class="title">Movies to watch</h2>
+            <ul >
+                <li id="a">
+                    <span class="name">Fight Club</span>
+                    <span class="del">delete</span>
+                </li>
+                <li id="b">
+                    <span class="name">Shawshank Redemption</span>
+                    <span class="del">delete</span>
+                </li>
+                <li id="c">
+                    <span class="name">Dilwale</span>
+                    <span class="del">delete</span>
+                </li>
+                <li id="d">
+                    <span class="name">Dark Knight</span>
+                    <span class="del">delete</span>
+                </li>
+                <li id="e">
+                    <span class="name">Dark Knight1</span>
+                    <span class="del">delete</span>
+                </li>
+            </ul>
+        </div>
 </div>
 <div class="footer">
-<form >
- <input type="checkbox" name="HideList" value="Hide"> Hide the list<br><br>
- <input type="textbox" placeholder="Add a movie" name="addmovie" ><br><br>
- <input type="button" value="Add" name="add">
+<form id="addmovie">
+ <input type="checkbox" onclick="f6()" name="HideList" id="hide" value="Hide"> <span style="font-family: cursive;">Hide the list<span><br><br>
+ <input type="text" id="add" placeholder="Add a movie" name="addmovie" ><br><br>
+ <button name="add" class="addb">Add</button>
  </form>
 </div>
+<script src="movie.js"></script>
  </body>
  </html>
